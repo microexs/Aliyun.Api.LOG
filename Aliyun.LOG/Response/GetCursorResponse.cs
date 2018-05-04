@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Aliyun.LOG.Response
+{
+    public class GetCursorResponse : LogResponse
+    {
+        private String _cursor;
+        public String Cursor
+        {
+            get { return _cursor; }
+            set { _cursor = value; }
+        }
+        public GetCursorResponse(IDictionary<String, String> headers, String cursor)
+            : base(headers)
+        {
+            Cursor = cursor;
+        }
+    }
+}

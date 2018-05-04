@@ -2,3 +2,6 @@
 *.dll
 */obj
 */bin
+/.vs
+/packages
+/Aliyun.LOG/*.user

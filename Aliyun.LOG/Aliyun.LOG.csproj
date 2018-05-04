@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Aliyun.LOG</AssemblyName>
+    <RootNamespace>Aliyun.LOG</RootNamespace>
+    <Product>Aliyun.LOG</Product>
+    <Description></Description>
+    <PackageId>Aliyun.LOG</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>none</PackageReleaseNotes>
+    <Version>1.0.0.4</Version>
+    <PackageProjectUrl>https://github.com/microexs/Aliyun.Api.LOG</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Company>Aliyun.LOG</Company>
+    <PackageIconUrl>https://avatars2.githubusercontent.com/u/34233029</PackageIconUrl>
+    <Authors>Aliyun.LOG</Authors>
+    <AssemblyVersion>1.0.0.4</AssemblyVersion>
+    <PackageLicenseUrl>https://github.com/microexs/Aliyun.Api.LOG</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>

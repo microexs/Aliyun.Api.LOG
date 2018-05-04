@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Aliyun.Api.LOG\Aliyun.Api.LOG.csproj" />
+    <ProjectReference Include="..\Aliyun.LOG\Aliyun.LOG.csproj" />
   </ItemGroup>
 
 </Project>

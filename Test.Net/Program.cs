@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 using Aliyun.LOG;
 using Aliyun.LOG.Common.Utilities;
 using Aliyun.LOG.Data;
 using Aliyun.LOG.Request;
 using Aliyun.LOG.Response;
 
-namespace Test
+namespace Test.Net
 {
     class Program
     {
@@ -15,7 +18,7 @@ namespace Test
         {
             // select you endpoint https://help.aliyun.com/document_detail/29008.html
             String endpoint = "cn-shanghai.log.aliyuncs.com",
-                accesskeyId = "",
+                accesskeyId = "".ToLower(),
                 accessKey = "",
                 project = "microex-test1",
                 logstore = "test";
@@ -23,10 +26,10 @@ namespace Test
             //init http connection timeout
             client.ConnectionTimeout = client.ReadWriteTimeout = 10000;
             //list logstores
-            foreach (String l in client.ListLogstores(new ListLogstoresRequest(project)).Logstores)
-            {
-                Console.WriteLine(l);
-            }
+            //foreach (String l in client.ListLogstores(new ListLogstoresRequest(project)).Logstores)
+            //{
+            //    Console.WriteLine(l);
+            //}
             //put logs
             PutLogsRequest putLogsReqError = new PutLogsRequest();
             putLogsReqError.Project = project;
