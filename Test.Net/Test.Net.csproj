@@ -52,11 +52,5 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Aliyun.LOG\Aliyun.LOG.csproj">
-      <Project>{e1e390d9-30ea-4ee3-ae59-a04ef3426bf3}</Project>
-      <Name>Aliyun.LOG</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

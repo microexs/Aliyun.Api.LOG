@@ -9,7 +9,7 @@
     <PackageId>Aliyun.LOG</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageReleaseNotes>none</PackageReleaseNotes>
-    <Version>1.0.0.4</Version>
+    <Version>1.0.0.5</Version>
     <PackageProjectUrl>https://github.com/microexs/Aliyun.Api.LOG</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
     <Company>Aliyun.LOG</Company>
